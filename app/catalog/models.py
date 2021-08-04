@@ -2,7 +2,7 @@ from app import db  # from the app package __init__
 from datetime import datetime
 
 
-# PUBLICATION TABLE
+# PUBLICATION TABLE added
 class Publication(db.Model):
     __tablename__ = 'publication'
 
